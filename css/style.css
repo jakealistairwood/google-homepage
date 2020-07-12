@@ -1,0 +1,157 @@
+/* Main Elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    color: #A8A1A7;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #4b4b4b;
+}
+/* Navigation Bar */
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 7vh;
+}
+.nav-left {
+    padding: 10px;
+}
+.nav-right {
+    padding: 10px;
+}
+nav li {
+    display: inline-block;
+    padding: 9px;
+}
+nav li:hover {
+    text-decoration: underline;
+} 
+i {
+    font-size: 1.2rem;
+    color: #5F6368;
+}
+i:hover {
+    color: #404040;
+}
+.nav-1 {
+    font-size: 0.8rem;
+    margin: 8px;
+}
+/* Hero */
+#hero {
+    width: 100%;
+} 
+.logo {
+    position: relative;
+    left: 50%;
+    top: 25vh;
+    transform: translate(-50%, -50%);
+    width: 268px;
+    height: auto;
+}
+input {
+    border-radius: 25px;
+    border: 1px solid hsl(0, 0%, 90%);
+    height: 45px;
+    width: 570px;
+    padding: 0 40px;
+}
+input:hover {
+    transform: scale(1.01);
+    box-shadow: 5px 5px 5px #F2F2F2;
+}
+input:focus {
+    outline: none;
+}
+.container {
+    display: relative;
+    height: 76vh;
+    width: 100%;
+}
+.searchbar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fas.fa-search,
+.fas.fa-microphone {
+    color: #a6a6a7; 
+    position: absolute;
+    display: flex;
+}
+.fas.fa-search {
+    left: 15px;
+}
+.fas.fa-microphone {
+    right: 15px;
+}
+.buttons {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+/* Buttons */
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 5px;
+    background-color: #F2F2F2;
+    font-size: .9rem;
+    border-radius: 7px;
+    border: none;
+    color: #5F6368;
+}
+.btn:hover {
+    color: #000;
+    border: 1px solid #A8A1A7;
+}
+/* Footer */
+#footer {
+    background-color: #F2F2F2;
+    color: #6b6a6a;
+    border: 1px solid #e2e2e2;
+    font-size: .94rem;
+}
+.nav-2 {
+    border-top: 1px solid #e2e2e2;
+    font-size: .9rem;
+    color: 
+}
+.location {
+    position: relative;
+    display: flex;
+    height: 7vh;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+}
+.menu-1 {
+    margin-left: 20px;
+}
+.menu-2 {
+    margin-right: 20px;
+}
